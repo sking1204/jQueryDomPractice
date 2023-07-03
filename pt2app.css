@@ -1,0 +1,70 @@
+
+
+html{
+    color:rgb(63, 66, 66);
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    height:400px;
+    /* Form outline */
+    padding: 5rem;
+    border: 5px solid #9c9c9cee;
+    border-radius: 5px;
+    position:relative;
+    background-color:#eeee;
+    top:10px;
+
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    
+    display: inline-block;
+    width: 90px;
+    text-align: left ;
+  }
+  
+  input
+   {
+    
+    font: 1em sans-serif;      
+    width: 300px;
+    box-sizing: border-box;  
+    border: 1px solid #9c9c9cee;
+  }
+  
+  input:focus{
+    background-color:rgb(152, 206, 206);
+    outline-color:grey;
+  }
+ 
+  h1{
+    position:absolute;
+    top:0px;
+    margin-left: 125px;
+    
+  }
+  
+  
+
+  button{
+    margin-top:32px;
+    display:block;
+    background-color:#3333;
+    border-radius:5px;
+    font-weight:bold;
+
+
+  }
